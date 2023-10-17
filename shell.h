@@ -145,4 +145,21 @@ void print_errors(info_t *, char *);
 int print_d(int, int);
 char *convert_numbers(long int, int, int);
 void remove_comment(char *);
+/* toem_exitting.c */
+char *_strncpying(char *, char *, int);
+char *_strncating(char *, char *, int);
+char *_strchrs(char *, char);
+
+/* toem_getenvi.c */
+char **get_environs(info_t *);
+int _unsetenves(info_t *, char *);
+int _setenves(info_t *, char *, char *);
+lear_infos(info_t *);
+void set_infos(info_t *, char **);
+void free_infos(info_t *, int);
+
+/* toem_get_info.c */
+void clear_infos(info_t *);
+void set_infos(info_t *, char **);
+void free_infos(info_t *, int);
 

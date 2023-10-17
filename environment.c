@@ -5,7 +5,7 @@
  *   * @info: Structure containing potential arguments. Used to maintain
  *    *          constant function prototype.
  *     * Return: Always 0
- *      */
+ *      **/
 int _myenvi(info_t *info)
 {
 		print_list_str(info->env);
@@ -18,7 +18,7 @@ int _myenvi(info_t *info)
  *    * @name: env var name
  *     *
  *      * Return: the value
- *       */
+ *       **/
 char *_getenvi(info_t *info, const char *name)
 {
 		list_t *node = info->env;
@@ -40,7 +40,7 @@ char *_getenvi(info_t *info, const char *name)
  *    * @info: Structure containing potential arguments. Used to maintain
  *     *        constant function prototype.
  *      *  Return: Always 0
- *       */
+ *       **/
 int _mysetenvi(info_t *info)
 {
 		if (info->argc != 3)
@@ -58,7 +58,7 @@ int _mysetenvi(info_t *info)
  *   * @info: Structure containing potential arguments. Used to maintain
  *    *        constant function prototype.
  *     * Return: Always 0
- *      */
+ *      **/
 int _myunsetenvi(info_t *info)
 {
 		int i;
@@ -79,7 +79,7 @@ int _myunsetenvi(info_t *info)
  *   * @info: Structure containing potential arguments. Used to maintain
  *    *          constant function prototype.
  *     * Return: Always 0
- *      */
+ *      **/
 int populate_env_list(info_t *info)
 {
 		list_t *node = NULL;
