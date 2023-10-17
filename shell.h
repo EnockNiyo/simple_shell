@@ -135,4 +135,14 @@ int _myenvi(info_t *);
 int _mysetenvi(info_t *);
 int _myunsetenvi(info_t *);
 int populate_env_list(info_t *);
+/* toem_error.c */
+void _eputses(char *);
+int _eputchars(char);
+int _putfds(char c, int fd);
+int _putsfds(char *str, int fd);
+nt _errato(char *);
+void print_errors(info_t *, char *);
+int print_d(int, int);
+char *convert_numbers(long int, int, int);
+void remove_comment(char *);
 
