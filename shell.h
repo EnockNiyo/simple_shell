@@ -185,4 +185,20 @@ size_t print_lists(const list_t *);
 list_t *node_starts_with(list_t *, char *, char);
 ssize_t get_node_indexes(list_t *, list_t *);
 
+/* toem_memory.c */
+int b_frees(void **);
+nt is_cmd(info_t *, char *);
+char *dup_char(char *, int, int);
+char *find_paths(info_t *, char *, char *);
+
+
+/* toem_parsers.c */
+int is_cmd(info_t *, char *);
+char *dup_char(char *, int, int);
+char *find_paths(info_t *, char *, char *);
+
+/* toem_reallocate.c */
+char *_mem_sets(char *, char, unsigned int);
+void ffrees(char **);
+void *_reallocat(void *, unsigned int, unsigned int);
 
