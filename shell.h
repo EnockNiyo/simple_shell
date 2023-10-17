@@ -163,3 +163,11 @@ void clear_infos(info_t *);
 void set_infos(info_t *, char **);
 void free_infos(info_t *, int);
 
+
+/* toem_history.c */
+char *get_history_files(info_t *info);
+int write_histories(info_t *info);
+int read_histories(info_t *info);
+int build_history_lists(info_t *info, char *buf, int linecount);
+int renumber_histories(info_t *info);
+
