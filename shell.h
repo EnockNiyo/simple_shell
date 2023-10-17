@@ -178,3 +178,11 @@ size_t print_list_strs(const list_t *);
 int delete_node_at_indexes(list_t **, unsigned int);
 void free_lists(list_t **);
 
+/* toem_list1.c */
+size_t list_lens(const list_t *);
+char **list_to_string(list_t *);
+size_t print_lists(const list_t *);
+list_t *node_starts_with(list_t *, char *, char);
+ssize_t get_node_indexes(list_t *, list_t *);
+
+
