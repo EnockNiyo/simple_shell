@@ -171,3 +171,10 @@ int read_histories(info_t *info);
 int build_history_lists(info_t *info, char *buf, int linecount);
 int renumber_histories(info_t *info);
 
+/* toem_list.c */
+list_t *add_nodes(list_t **, const char *, int);
+list_t *add_node_ends(list_t **, const char *, int);
+size_t print_list_strs(const list_t *);
+int delete_node_at_indexes(list_t **, unsigned int);
+void free_lists(list_t **);
+
