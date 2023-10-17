@@ -129,3 +129,10 @@ int _myhelp(info_t *);
 int _my_history(info_t *);
 int _myaliases(info_t *);
 
+/* toem_environment.c */
+char *_getenvi(info_t *, const char *);
+int _myenvi(info_t *);
+int _mysetenvi(info_t *);
+int _myunsetenvi(info_t *);
+int populate_env_list(info_t *);
+
