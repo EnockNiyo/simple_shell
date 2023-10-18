@@ -15,3 +15,17 @@ char *_mem_sets(char *s, char b, unsigned int n)
 		s[i] = b;
 	return (s);
 }
+/**
+ * ffrees - frees a string of strings
+ * @pp: string of strings
+ */
+void ffrees(char **pp)
+{
+	char **a = pp;
+
+	if (!pp)
+		return;
+	while (*pp)
+		free(*pp++);
+	free(a);
+}
