@@ -121,9 +121,10 @@ int _mycd(info_t *);
 int _myhelp(info_t *);
 
 /* toem_builtin.c */
-int _myexiting(info_t *);
+int _myexit(info_t *);
 int _mycd(info_t *);
 int _myhelp(info_t *);
+
 
 /* toem_builtin_1.c */
 int _my_history(info_t *);
