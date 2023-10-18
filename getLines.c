@@ -155,3 +155,15 @@ int _getlines(info_t *info, char **ptr, size_t *length)
 	*ptr = p;
 	return (s);
 }
+/**
+ * sigintHandlers - blocks ctrl-C
+ * @sig_num: the signal number
+ *
+ * Return: void
+ */
+void sigintHandlers(_attribute_((unused))int sig_num)
+{
+	_puts("\n");
+	_puts("$ ");
+	_putchar(BUF_FLUSH);
+}
