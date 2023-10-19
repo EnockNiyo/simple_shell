@@ -193,7 +193,7 @@ int _myaliases(info_t *);
 
 /*toem_getlines.c */
 ssize_t get_inputs(info_t *);
-int _getlines(info_t *, char **, size_t *);
+int _getline(info_t *, char **, size_t *);
 void sigintHandlers(int);
 
 /* toem_get_info.c */

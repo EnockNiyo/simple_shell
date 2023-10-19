@@ -1,4 +1,3 @@
-getLines.c code
 
 #include "shell.h"
 
@@ -24,7 +23,7 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
 #if USE_GETLINE
 		r = getline(buf, &len_p, stdin);
 #else
-		r = _getlines(info, buf, &len_p);
+		r = _getline(info, buf, &len_p);
 #endif
 		if (r > 0)
 		{
