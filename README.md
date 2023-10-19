@@ -21,7 +21,7 @@ This program was written entirely in C Language.
 </p>
 
 ## COPYRIGHT
-Copyright (C) 2022 by [**Reny Kipkoech**](https://github.com/Tr-reny) and [**Stellah Mbao**](https://github.com/StellahMbao) </br>
+Copyright (C) 2023 by [**NIYOMWUNGERI Enock**](https://github.com/EnockNiyo) and [**NIYONGABO Jean Pierre**](https://github.com/ngabo-dev) </br>
 All rights reserved
 
  ## Description :
