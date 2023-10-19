@@ -62,32 +62,11 @@ Our shell has support for the following built-in commands:
 | help [built-in]     | Read documentation for a built-in.                                                        |
 
 
- ## Installation : Getting HSH
  
-Clone the below repository and compile the files into an executable using the GCC compiler.
-```
-https://github.com/StellahMbao/simple_shell.git
-```
+## Contributors
 
-### Basic usage :bulb:
-- First, Fork this Repository [Learn how to fork repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
-- Then Clone [Learn how to clone ](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-- Create an executable by running the following command:
-- `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
-- From there, type in the following command and press your enter button.
-- `./hsh`
-- Final step: ENJOY!
-
-
-## Example :computer:
-```
-ls -la
-```
-![114757753-e50c2180-9d64-11eb-95ea-fb9bba776c8c](https://user-images.githubusercontent.com/57016982/186711943-65abad4d-eedf-4d65-947d-3710e189bdee.png)
-
-## Contributors :
-* [**Reny Kipkoech**](https://github.com/Tr-reny)
-* [**Stellah Mbao**](https://github.com/StellahMbao)
+* [**NIYOMWUNGERI Enock**](https://github.com/EnockNiyo)
+* [**NIYONGABO Jean Pierre**](https://github.com/ngabo-dev)
 
 ## Acknowledgments :
 - The creators of the C language.
