@@ -1,10 +1,6 @@
-<h1 align="center">
+<h3 align="center">
   0x16. C - Simple Shell
-</h1>
-
-<p align="center">
-   📄 🚀
-</p>
+</h3>
 
 <p align="center">
   <strong>
